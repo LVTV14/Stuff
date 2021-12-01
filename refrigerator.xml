@@ -6,13 +6,11 @@
         <manufacturer>Samsung</manufacturer>
         <price>1499.95</price>
     </refrigerator>
-
     <refrigerator>
         <name>12 Cu.Ft. Top-Freezer Retro Refrigerator</name>
         <manufacturer>Galanz</manufacturer>
         <price>999.97</price>
     </refriderator>
-
     <refrigerator>
         <name>22 Cu.Ft. Energy Star Bottom-Mount Refrigerator</name>
         <manufacturer>LG</manufacturer>
