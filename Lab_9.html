@@ -1,34 +1,49 @@
 <html>
 
+<head>
+  <meta charset="utf-8" />
+  <style></style>
+</head>
+
 <body>
   <h2>AJAX Example, JSON Object</h2>
   <br>
-  <div id="results">
-    <div id="name"></div>
-    <div id="price"></div>
-    <div id="quantity"></div>
-  </div>
+  <div id="results"></div>
   <br>
-  <button type="button" onclick="GetWeatherInfo()">
-    Get Weather Info
-  </button>
+  <button id="btn" type="button">Get Weather Info</button>
+
   <script>
-    function GetWeatherInfo() {
+    var btn = document.getElementById("btn");
+
+    btn.addEventListener("click", function () {
       var xhttp = new XMLHttpRequest();
       xhttp.timeout = 3000;
       xhttp.responseType = "json";
+
       xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
           ProcessJSON(this.response);
         }
       };
+
+      // Using GitHub. The HTML file link is "https://lvtv14.github.io/Stuff/Lab_9.html"
       xhttp.open("GET", "https://lvtv14.github.io/Stuff/items.json", true);
       xhttp.send();
-    }
+
+      // Hides button after click
+      document.getElementById('btn').style.display = 'block'; 
+      this.style.display = 'none'
+    });
+
     function ProcessJSON(json) {
-      document.getElementById("name").innerHTML = json.name;
-      document.getElementById("price").innerHTML = json.price;
-      document.getElementById("quantity").innerHTML = json.quantity;
+      itemString = "";
+
+      for (i = 0; i < json.length; i++) {
+        itemString += "<b>Item " + (i + 1) + "</b><br>Name: " + json[i].name + "<br>Price: $" +
+                              + json[i].price + "<br>Quantity: " + json[i].quantity + "<br><br>";
+      }
+
+      document.getElementById("results").innerHTML = itemString;
     }
   </script>
 
