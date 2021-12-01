@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<appliances>
+<refrigerators>
     <refrigerator>
         <name>22.1 Cu.Ft. French-Door Refrigerator</name>
         <manufacturer>Samsung</manufacturer>
@@ -16,4 +16,4 @@
         <manufacturer>LG</manufacturer>
         <price>1399.95</price>
     </refrigerator>
-</appliances>
+</refrigerators>
