@@ -2,18 +2,27 @@
     "sofa": [
         {
             "name": "Brielle Velvet Sofa",
-            "colour": "Grey",
-            "price": 1299.97
+            "price": 1299.97,
+            "colour": [ 
+                "Grey", 
+                "Black" 
+            ]
         },
         {
             "name": "Benson Leather-Look Fabric Sofa",
-            "colour": "Dark Brown",
-            "price": 799.95
+            "price": 799.95,
+            "colour":  [
+                "Dark Brown", 
+                "Grey"
+            ]
         },
         {
             "name": "Jeri Fabric Sofa",
-            "colour": "Grey",
-            "price": 699.95
+            "price": 699.95,
+            "colour": [
+                "Grey", 
+                "Green" 
+            ]
         }
     ],
 
