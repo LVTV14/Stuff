@@ -22,13 +22,13 @@
           ProcessJSON(this.response);
         }
       };
-      xhttp.open("GET", "http://munro.humber.ca/home/students/n01392505/public_html/items.json", true);
+      xhttp.open("GET", "https://lvtv14.github.io/Stuff/items.json", true);
       xhttp.send();
     }
     function ProcessJSON(json) {
-      document.getElementById("name").innerHTML = json.city;
-      document.getElementById("price").innerHTML = json.temp;
-      document.getElementById("quantity").innerHTML = json.temp;
+      document.getElementById("name").innerHTML = json.name;
+      document.getElementById("price").innerHTML = json.price;
+      document.getElementById("quantity").innerHTML = json.quantity;
     }
   </script>
 
