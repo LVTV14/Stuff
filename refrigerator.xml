@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <appliances>
-    <refridgerator>
+    <refrigerator>
         <name>22.1 Cu.Ft. French-Door Refrigerator</name>
         <manufacturer>Samsung</manufacturer>
         <price>1499.95</price>
-    </refridgerator>
+    </refrigerator>
 
-    <refridgerator>
+    <refrigerator>
         <name>12 Cu.Ft. Top-Freezer Retro Refrigerator</name>
         <manufacturer>Galanz</manufacturer>
         <price>999.97</price>
-    </refridgerator>
+    </refriderator>
 
-    <refridgerator>
+    <refrigerator>
         <name>22 Cu.Ft. Energy Star Bottom-Mount Refrigerator</name>
         <manufacturer>LG</manufacturer>
         <price>1399.95</price>
-    </refridgerator>
+    </refrigerator>
 </appliances>
