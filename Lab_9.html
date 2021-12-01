@@ -1,0 +1,37 @@
+<html>
+
+<body>
+  <h2>AJAX Example, JSON Object</h2>
+  <br>
+  <div id="results">
+    <div id="name"></div>
+    <div id="price"></div>
+    <div id="quantity"></div>
+  </div>
+  <br>
+  <button type="button" onclick="GetWeatherInfo()">
+    Get Weather Info
+  </button>
+  <script>
+    function GetWeatherInfo() {
+      var xhttp = new XMLHttpRequest();
+      xhttp.timeout = 3000;
+      xhttp.responseType = "json";
+      xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+          ProcessJSON(this.response);
+        }
+      };
+      xhttp.open("GET", "http://munro.humber.ca/home/students/n01392505/public_html/items.json", true);
+      xhttp.send();
+    }
+    function ProcessJSON(json) {
+      document.getElementById("name").innerHTML = json.city;
+      document.getElementById("price").innerHTML = json.temp;
+      document.getElementById("quantity").innerHTML = json.temp;
+    }
+  </script>
+
+</body>
+
+</html>
