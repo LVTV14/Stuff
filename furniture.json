@@ -1,0 +1,40 @@
+{
+    "sofa": [
+        {
+            "name": "Brielle Velvet Sofa",
+            "colour": "Grey",
+            "price": 1299.97
+        },
+        {
+            "name": "Benson Leather-Look Fabric Sofa",
+            "colour": "Dark Brown",
+            "price": 799.95
+        },
+        {
+            "name": "Jeri Fabric Sofa",
+            "colour": "Grey",
+            "price": 699.95
+        }
+    ],
+
+    "chair": [
+        {
+            "name": "Febe Chenille Chair",
+            "colour": "Charcoal",
+            "price": 1099.97,
+            "discount": 0
+        },
+        {
+            "name": "Leo Leath-Aire Fabric Rocker Recliner",
+            "colour": "Walnut",
+            "price": 1149.95,
+            "discount": 550
+        },
+        {
+            "name": "Drake Faux Suede Chair with Pull-Out Ottoman",
+            "colour": "Cement",
+            "price": 719.95,
+            "discount": 180
+        }
+    ]
+}
