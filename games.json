@@ -1,0 +1,19 @@
+{
+    "video_games": [
+        {
+            "title": "Ghost of Tsushima Director's Cut",
+            "price": 54,
+            "quantity": 11
+        },
+        {
+            "title": "Ratchet &amp; Clank: Rift Apart",
+            "price": 40.58,
+            "quantity": 2
+        },
+        {
+            "title": "Bugsnax",
+            "price": 56.27,
+            "quantity": 7
+        }
+    ]
+}

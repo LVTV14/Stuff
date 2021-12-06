@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<games>
+    <game>
+        <name>Deathloop</name>
+        <price>39</price>
+        <quantity>5</quantity>
+    </game>
+    <game>
+        <name>Death Stranding Director's Cut</name>
+        <price>39.20</price>
+        <quantity>10</quantity>
+    </game>
+    <game>
+        <name>FIFA 22</name>
+        <price>68</price>
+        <quantity>25</quantity>
+    </game>
+</games>
