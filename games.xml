@@ -16,14 +16,3 @@
         <price>68</price>
         <quantity>25</quantity>
     </game>
-
-    <configuration>
-        <system.webServer>
-           <httpProtocol>
-              <customHeaders>
-                 <add name="Access-Control-Allow-Origin" value="*" />
-              </customHeaders>
-           </httpProtocol>
-        </system.webServer>
-     </configuration>
-</games>
